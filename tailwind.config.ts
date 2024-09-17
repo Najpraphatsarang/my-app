@@ -12,8 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        // ตั้งชื่อฟอนต์โดยใช้เครื่องหมายธรรมดาและให้ array เป็นค่าของฟอนต์
+        'Noto Sans Thai': ['Noto Sans Thai', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
