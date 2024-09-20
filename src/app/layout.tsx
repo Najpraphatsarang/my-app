@@ -24,6 +24,7 @@ export default function RootLayout({
       <body
         className={`${notoSansThai.variable} antialiased`} // ใช้ฟอนต์ Noto Sans Thai
       >
+        <div className="w-full min-h-screen"></div>
         {children}
       </body>
     </html>

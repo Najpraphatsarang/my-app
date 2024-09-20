@@ -1,10 +1,12 @@
 import { PropsWithChildren } from "react";
 
-type Props = {};
+type Props = {
+    className? :string;
+};
 
-function Text({ children }: PropsWithChildren<Props>) {
+function Text({ children, className }: PropsWithChildren<Props>) {
     return (
-        <p className="font-noto-sans-thai">{children}</p>
+        <p className={"font-noto-sans-thai ${className}"}>{children}</p>
     );
 }
 
